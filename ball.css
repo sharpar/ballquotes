@@ -1,5 +1,6 @@
 body {
-    background-image: url(basketball-floor-texture.jpg)
+    background-image: url(Larry-OBrein-trophy-A2DRadio-NBA-Preview.jpg);
+    background-size: cover;
 }
 
 h1{
@@ -21,10 +22,13 @@ h1{
 
 p {
     text-align: center;
+    font-weight: 500;
+    font-size: 170%;
 }
 
 footer {
     text-align: center;
+    font-size: 140%
 }
 
 .generate {
