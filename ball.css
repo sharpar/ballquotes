@@ -1,9 +1,8 @@
 body {
-    background-image: url(Larry-OBrein-trophy-A2DRadio-NBA-Preview.jpg);
-    background-size: cover;
+    background-image: url(http://thegonzoinsashow.com/wp-content/uploads/2014/06/the-trophy.jpg);
 }
 
-h1{
+h1 {
     padding: 20px;
     font-family: 'Great Vibes', cursive;
     font-size: 400%;
@@ -11,13 +10,11 @@ h1{
     background: black;
     backface-visibility: 80%;
     opacity: 0.8;
-    
 }
 
-.quote{
+.quote {
     margin: 50px;
     color: white;
-    
 }
 
 p {
@@ -26,7 +23,7 @@ p {
     font-size: 170%;
 }
 
-footer {
+.quote footer {
     text-align: center;
     font-size: 140%
 }
