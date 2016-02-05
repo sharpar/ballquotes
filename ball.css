@@ -29,5 +29,10 @@ p {
 }
 
 .generate {
-    text-align: center;
+    display: inline-block;
+}
+
+.container {
+    display: inline-block;
+    flo
 }

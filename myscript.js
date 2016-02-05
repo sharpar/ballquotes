@@ -13,6 +13,12 @@ $(document).ready(function () {
 
         $('.quote').text(quoteArray[num][0]);
         $('.author').text(quoteArray[num][1]);
+
+        var quot = 'https://twitter.com/intent/tweet?text=' + quoteArray[num][0] + ' - ' + quoteArray[num][1];
+
+        $(".twitter-share-button").attr("href", quot);
     });
+
+
 
 });
