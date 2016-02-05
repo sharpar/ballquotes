@@ -29,10 +29,27 @@ p {
 }
 
 .generate {
+    margin: 0 auto;
     display: inline-block;
 }
 
-.container {
-    display: inline-block;
-    flo
+.twitter-share-button {
+    margin: 0 auto;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    margin-right: 20px;
+    padding-top: 11px;
+    font-size: 120%;
+}
+
+.buttons {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding-top: 100px;
 }
