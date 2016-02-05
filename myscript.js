@@ -7,11 +7,12 @@ $(document).ready(function () {
             ];
 
 
-    $(".generate").click(function () {
+    $(".generate").on('click', function () {
 
         var num = Math.floor(Math.random() * quoteArray.length) + 1;
 
         $('.quote').text(quoteArray[num][0]);
+        $('.author').text(quoteArray[num][1]);
     });
 
 });
