@@ -1,31 +1,45 @@
+html {
+    margin-top: 0;
+    height: 100%;
+}
+
 body {
+    margin: 0;
+    height: 100%;
     background-image: url(http://thegonzoinsashow.com/wp-content/uploads/2014/06/the-trophy.jpg);
+    margin: 0;
+    box-shadow: inset 0px 0px 0 2000px rgba(0, 0, 0, 0.5);
+    padding: 0;
 }
 
 h1 {
     padding: 20px;
+    padding-top: 40px;
     font-family: 'Great Vibes', cursive;
-    font-size: 400%;
+    font-size: 55px;
+    font-size: calc(100% + 3.5vw);
     color: white;
-    background: black;
-    backface-visibility: 80%;
-    opacity: 0.8;
+    margin: 0;
 }
 
 .full {
     margin: 50px;
     color: white;
+    height: 180px;
 }
 
 p {
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 170%;
+    font-size: calc(120% + .9vw);
 }
 
 .author {
     text-align: center;
-    font-size: 140%
+    font-size: 140%;
+    font-weight: 500;
+    font-size: calc(120% + .9vw);
 }
 
 .generate {
@@ -52,4 +66,8 @@ p {
 footer {
     text-align: center;
     padding-top: 100px;
+}
+
+i {
+    color: white;
 }
