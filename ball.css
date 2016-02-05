@@ -12,7 +12,7 @@ h1 {
     opacity: 0.8;
 }
 
-.quote {
+.full {
     margin: 50px;
     color: white;
 }
@@ -23,7 +23,7 @@ p {
     font-size: 170%;
 }
 
-.quote footer {
+.author {
     text-align: center;
     font-size: 140%
 }
