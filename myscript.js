@@ -10,14 +10,16 @@ var quoteArray = [
     ['The invention of basketball was not an accident. It was developed to meet a need. Those boys simply would not play "Drop the Handkerchief."', 'James Naismith'],
     ["These are my new shoes. They're good shoes. They won't make you rich like me, they won't make you rebound like me, they definitely won't make you handsome like me. They'll only make you have shoes like me. That's it.", "Charles Barkley"],
     ["I knew I was dog meat. Luckily, I'm the high-priced dog meat that everybody wants. I'm the good-quality dog meat. I'm the Alpo of the NBA.", "Shaquille O'Neal"]
-            ];
+];
 
 function getQuote() {
-
+    'use strict';
     var num = Math.floor(Math.random() * quoteArray.length);
 
-    $('.quote').text(quoteArray[num][0]);
-    $('.author').text(quoteArray[num][1]);
+    $('.full').fadeOut(function () {
+        $('.quote').text(quoteArray[num][0]);
+        $('.author').text(quoteArray[num][1]);
+    }).fadeIn();
 
     var quot = 'https://twitter.com/intent/tweet?text=' + quoteArray[num][0] + ' - ' + quoteArray[num][1];
 
@@ -25,6 +27,7 @@ function getQuote() {
 }
 
 $(document).ready(function () {
+    'use strict';
     getQuote();
 
     $(".generate").on('click', function () {
