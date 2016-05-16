@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    border: solid 1px black;
+    background-color: grey;
+}
+
+img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
